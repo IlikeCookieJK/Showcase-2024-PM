@@ -1,1 +1,9 @@
-se
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+footer {
+    
+}
