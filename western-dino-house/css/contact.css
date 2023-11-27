@@ -1,6 +1,35 @@
-body {
+section{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+}
+.full{
+    flex-basis: 100%;
+}
+.box{
+    border-radius: 0.5em;
+    border: solid;
+    background-color: #F8F8F0;
+}
+.halfbox{
+    width: 35.5625em;
+    height: 28.654375em;
+}
+img{
+    width: 35.5625em;
+    height: 28.654375em;
+    object-fit: cover;
+}
+p{
+    font-size: 2rem;
+}
+h1{
+    font-size: 9rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+body{
+    background-color: #236154;
 }
