@@ -3,7 +3,30 @@ body {
     flex-flow: row wrap;
 }
 
+.name {
+    background-image: url(/western-dino-house/images/backgound.jpg);
+    flex-basis: 100%;
+    font-size: 3.5rem;
+    padding: 2.6rem;
+}
 
 footer {
-    
+    background-color: #D7D3C7;
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 0 0 -.47rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+}
+
+footer section {
+    display: block;
+    flex-basis: 100%;
+}
+
+footer a {
+    display: flex;
+    flex-basis: 100%;
+    padding: 0 15% 1% 15%;
 }
