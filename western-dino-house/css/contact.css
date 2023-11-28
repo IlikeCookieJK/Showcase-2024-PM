@@ -7,29 +7,36 @@ section{
 .full{
     flex-basis: 100%;
 }
+.textbox{
+    flex-basis: 10%;
+}
 .box{
     border-radius: 0.5em;
     border: solid;
     background-color: #F8F8F0;
 }
 .halfbox{
-    width: 35.5625em;
-    height: 28.654375em;
+    width: 40.5625em;
+    height: 33.654375em;
 }
 img{
-    width: 35.5625em;
-    height: 28.654375em;
+    width: 40.5625em;
+    height: 33.654375em;
     object-fit: cover;
 }
 p{
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 h1{
     font-size: 9rem;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 body{
     background-color: #236154;
+    margin: 0;
+}
+.spaceright{
+    margin-right: 3rem;
 }
