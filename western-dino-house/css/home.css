@@ -1,20 +1,54 @@
 body {
     display: flex;
     flex-flow: row wrap;
+    background-color: #236154;
+    margin: 0;
 }
 
+.language {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.sub-header {
+
+}
+
+
+/* WORK ON MENU WESDNESDAY */
+
+
+
+
 .name {
-    background-image: url(/western-dino-house/images/backgound.jpg);
+    background-image: url(/western-dino-house/images/backgound.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    border: 2px solid;
+    resize: both;
     flex-basis: 100%;
+}
+
+h1 {
     font-size: 3.5rem;
     padding: 2.6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
     background-color: #D7D3C7;
     display: flex;
     flex-basis: 100%;
-    margin: 0 0 0 -.47rem;
     padding: 1.5rem;
     font-size: 2rem;
     /* border: 1px solid red; */
