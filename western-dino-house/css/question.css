@@ -1,0 +1,14 @@
+.button{
+    border:1px solid;
+    background-color: whitesmoke;
+}
+.name{
+    flex-basis: 100%;
+    padding: 100rem 100rem 100rem;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap row;
+}
