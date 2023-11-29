@@ -6,17 +6,49 @@ body {
 }
 
 .language {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
+    position: relative;
+    display: inline-block;
 }
 
-.sub-header {
+.language span img{
+    padding-top: .3rem;
+    width: 3rem;
+    height: 3.5rem;
+}
 
+.drop-down {
+    display: none;
+    position: absolute;
+    background-color: #D7D3C7;
+    font-size: 1.5rem;
+    min-width: 180px;
+    padding: 5px 9px;
+    z-index: 0;
+}
+
+.language:hover  .drop-down{
+    display: block;
+}
+
+
+.sub-header {
+    background-color: #D7D3C7;
+    padding: .5rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+}
+
+.icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.sub-header a {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: .7rem;
 }
 
 
@@ -28,21 +60,33 @@ body {
 .name {
     background-image: url(/western-dino-house/images/backgound.jpg); 
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 160px;
-    height: 160px;
-    border: 2px solid;
+    background-size: fill;
+    height: 15rem;
     resize: both;
     flex-basis: 100%;
 }
 
 h1 {
-    font-size: 3.5rem;
-    padding: 2.6rem;
+    font-size: 4.5rem;
+    padding: 1.6rem;
+    margin: 3.2rem;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
+
+}
+
+.ads {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;
 }
 
 footer {
@@ -51,7 +95,7 @@ footer {
     flex-basis: 100%;
     padding: 1.5rem;
     font-size: 2rem;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 footer section {
