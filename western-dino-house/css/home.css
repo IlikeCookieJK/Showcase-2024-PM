@@ -8,22 +8,25 @@ body {
 .language {
     position: relative;
     display: inline-block;
+    margin-right: 2rem;
 }
 
 .language span img{
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
+    margin-left: 9rem;
 }
 
 .drop-down {
     display: none;
     position: absolute;
     background-color: #D7D3C7;
-    font-size: 1.5rem;
+    font-size: 25px;
     min-width: 180px;
     padding: 5px 9px;
     z-index: 0;
+    margin-right: 4rem;
 }
 
 .language:hover  .drop-down{
@@ -34,10 +37,11 @@ body {
 .sub-header {
     background-color: #D7D3C7;
     padding: .5rem;
-    font-size: 2.5rem;
+    font-size: 35px;
     display: flex;
     flex-basis: 100%;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 .icon {
@@ -46,9 +50,10 @@ body {
 }
 
 .sub-header a {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    padding-left: 5.5rem;
+    padding-right: 20.5rem;
     padding-top: .7rem;
+    
 }
 
 
@@ -60,14 +65,14 @@ body {
 .name {
     background-image: url(/western-dino-house/images/backgound.jpg); 
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: cover;
     height: 15rem;
     resize: both;
     flex-basis: 100%;
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     padding: 1.6rem;
     margin: 3.2rem;
     color: white;
@@ -76,10 +81,18 @@ h1 {
     align-items: center;
 }
 
+.center {
+    display: flex;
+    flex-flow: column ;
+    padding: 2rem 10rem 2rem 20rem;
+
+}
+
 .container {
-    width: 30em;
-    height: 30em;
+    width: 14rem;
+    height: 15rem;
     object-fit: cover;
+    border-radius: .5em 0 0 .5em;
 
 }
 
@@ -89,13 +102,19 @@ h1 {
     flex-basis: 100%;
 }
 
+.text-box {
+    background-color: #f8f8f0;
+    font-size: 1.6rem;
+    border-radius: 0 0.5em 0.5em 0;
+}
+
 footer {
     background-color: #D7D3C7;
     display: flex;
     flex-basis: 100%;
     padding: 1.5rem;
-    font-size: 2rem;
-    border: 1px solid red;
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
 }
 
 footer section {
@@ -108,3 +127,18 @@ footer a {
     flex-basis: 100%;
     padding: 0 15% 1% 15%;
 }
+
+footer section a:first-of-type {
+    font-size: 2rem;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
