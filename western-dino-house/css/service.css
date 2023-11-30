@@ -1,4 +1,9 @@
-
+body {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #236154;
+    margin: 0;
+}
 
 
 
