@@ -67,9 +67,34 @@ body {
     box-shadow: 0.2rem 0.2rem 0.4rem black;
     object-fit: contain;
     margin-bottom: 0.001rem;
-    margin-right: 100rem;
+    margin-left: 2rem;
     margin-top: 1.5rem;
 }
+
+.home {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.ab {
+    display: flex;
+    flex-basis: 100%;
+    /* width: 100rem; */
+}
+
+h1 {
+    font-size: 6.5rem;
+    background-image: url(/western-dino-house/images/exterior.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    resize: both;
+    flex-basis: 100%;
+}
+
+
+
+
 
 
 footer {
