@@ -34,7 +34,7 @@
     font-size: 35px;
     display: flex;
     flex-basis: 100%;
-    flex-direction: row;
+    flex-flow: row nowrap;
     justify-content: flex-end;
 }
 
