@@ -9,7 +9,7 @@ body {
 .language {
     position: relative;
     display: inline-block;
-    margin-right: 0rem;
+    margin-left: 17vw;
 }
 
 .language span img{
@@ -40,9 +40,9 @@ body {
     padding: .5rem;
     font-size: 35px;
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 100vw;
     flex-direction: row;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .icon {
@@ -51,30 +51,25 @@ body {
 }
 
 .sub-header a {
-    padding-left: 5.5rem;
-    padding-right: 10.5rem;
+    /* padding-left: 5.5rem; */
+    padding-right: 4vw;
+    margin-right: 5vw;
     padding-top: 1rem;
     
 }
 
 .return {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 1.3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: .5rem;
     color: black;
     text-decoration: none;
-    background-color: #D7D3C7;
-    box-shadow: 0.2rem 0.2rem 0.4rem black;
     object-fit: contain;
     margin-bottom: 0.001rem;
     margin-left: 2rem;
-    margin-top: 1.5rem;
+    margin-top: .2rem;
 }
 
-.home {
-    display: flex;
-    flex-basis: 100%;
-}
 
 .ab {
     display: flex;
@@ -85,11 +80,16 @@ body {
 h1 {
     font-size: 6.5rem;
     background-image: url(/western-dino-house/images/exterior.jpg); 
+    background-position-y: 85%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 25rem;
     resize: both;
     flex-basis: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
