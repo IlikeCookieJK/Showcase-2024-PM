@@ -6,6 +6,57 @@ body {
 }
 
 
+.language {
+    position: relative;
+    display: inline-block;
+    margin-right: 0rem;
+}
+
+.language span img{
+    padding-top: .3rem;
+    width: 3rem;
+    height: 3.5rem;
+    margin-left: 9rem;
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    background-color: #D7D3C7;
+    font-size: 25px;
+    min-width: 180px;
+    padding: 5px 9px;
+    z-index: 0;
+    margin-right: 4rem;
+}
+
+.language:hover  .drop-down{
+    display: block;
+}
+
+
+.sub-header {
+    background-color: #D7D3C7;
+    padding: .5rem;
+    font-size: 35px;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.sub-header a {
+    padding-left: 5.5rem;
+    padding-right: 20.5rem;
+    padding-top: 1rem;
+    
+}
+
 footer {
     background-color: #D7D3C7;
     display: flex;
