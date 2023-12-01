@@ -66,6 +66,31 @@ body {
     margin-top: .2rem;
 }
 
+.os {
+    background-image: url(/western-dino-house/images/service.jpg);
+    background-position-y: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    resize: both;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
