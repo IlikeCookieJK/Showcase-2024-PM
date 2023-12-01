@@ -115,6 +115,7 @@ h1 {
     width: 25rem;
     height: 33rem;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
 }
 
 .text {
@@ -135,7 +136,6 @@ h1 {
 .push {
     margin-right: 8vw;
 }
-
 
 
 

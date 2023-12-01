@@ -65,7 +65,9 @@ body {
 .name{
     padding: 0rem 0rem 0rem;
     resize: none;
-    margin: 0% 49%;
+    margin-right: 55%;
+    margin-left: 31.7%;
+    margin-bottom: 2rem;
 }
 .question{
     resize: none;
@@ -75,7 +77,8 @@ body {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    flex-basis: 100%;
+    margin-top: 10vw;
+
 }
 body{
     background-color: #236154;
@@ -88,6 +91,8 @@ body{
     background-color: whitesmoke;
     padding: 0rem 0.5rem;
     flex-basis: 100%;
+    position: relative;
+    right: 39rem;
 }
 .button:hover{
     background-color: rgb(238, 238, 238);
@@ -98,6 +103,12 @@ body{
 .spacetop{
     margin-top: 2rem;
 }
+.submit{
+    flex-basis: 100%;
+   margin-left: 64.3%;
+   margin-top: 2rem;
+}
+
 
 
 
@@ -109,7 +120,7 @@ footer {
     flex-basis: 100%;
     padding: 1.5rem;
     font-size: 1.5rem;
-    margin-top: 60vh;
+    margin-top: 30vh;
     /* border: 1px solid red; */
 }
 
