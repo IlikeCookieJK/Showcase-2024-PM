@@ -120,11 +120,20 @@ h1 {
 
 .text {
     background-color: #D7D3C7;
+    flex-wrap: wrap;
     margin-top: -0.2rem;
     padding: .2rem;
     width: 24.6rem;
-    height: 12rem;
+    height: 16rem;
     border-radius: 0 0 10px 10px;
+}
+
+.text h2 {
+    font-size: 2rem;
+}
+
+.text p {
+    font-size: 1.5rem;
 }
 
 .emp {
@@ -134,7 +143,7 @@ h1 {
 }
 
 .push {
-    margin-right: 8vw;
+    margin-right: 9.5vw;
 }
 
 

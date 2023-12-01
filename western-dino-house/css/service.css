@@ -79,16 +79,47 @@ body {
     align-items: center;
 }
 
+h1 {
+    color: black;
+    font-size: 6.5rem;
+    background-color: #D7D3C7;
+    padding: .5rem;
+    border-radius: 20px;
+}
 
+.pic {
+    width: 30rem;
+    height: 25rem;
+    border: 1px black solid;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 
+}
 
+.service {
+    margin: 1vw 6vw;
+    display: flex;
+}
 
+.s2 {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 6vw;
+}
 
+.text {
+    background-color: #D7D3C7;
+    border-radius: 0 0 20px 20px;
+    padding: .4rem;
+}
 
+.text h2 {
+    font-size: 2rem;
+}
 
-
-
-
+.text p {
+    font-size: 1.5rem;
+}
 
 
 
