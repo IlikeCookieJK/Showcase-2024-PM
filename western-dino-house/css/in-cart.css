@@ -11,7 +11,7 @@ body {
     margin-left: 2vw;
 }
 
-.language span img{
+.language span img {
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
@@ -29,7 +29,7 @@ body {
     margin-right: 4rem;
 }
 
-.language:hover  .drop-down{
+.language:hover .drop-down {
     display: block;
 }
 
@@ -48,13 +48,13 @@ body {
     height: 3.5rem;
 }
 
-.sub-header .masc{
+.sub-header .masc {
     display: flex;
     flex-flow: row;
     margin: 0 5vw;
 }
 
-.masc a{
+.masc a {
     width: 11vw;
     margin: 1.5vh 4vw 0 4vw;
 }
@@ -102,3 +102,51 @@ a:visited {
     text-decoration: none;
 }
 
+.box {
+    border: solid;
+    border-radius: 2rem;
+    background-color: #D7D3C7;
+    height: 2rem;
+}
+
+.cart {
+    flex-basis: 85%;
+    background-color: #236154;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    height: 30rem;
+}
+
+body {
+    background-image: url(/western-dino-house/images/backgound.jpg);
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.title {
+    flex-basis: 85%;
+    border: solid;
+    border-radius: 1rem;
+    background-color: #D7D3C7;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.condiments{
+    flex-basis: 12%;
+    height: 20rem;
+}
+.total{
+    flex-basis: 12%;
+    height: 10rem;
+    margin-left: 108rem;
+    position: relative;
+    bottom: 10rem;
+}
+.pay{
+    flex-basis: 100%;
+}
