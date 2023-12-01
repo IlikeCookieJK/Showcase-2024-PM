@@ -113,8 +113,13 @@ h1 {
     padding: .4rem;
 }
 
+.text h2 {
+    font-size: 2rem;
+}
 
-
+.text p {
+    font-size: 1.5rem;
+}
 
 
 
