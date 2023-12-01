@@ -9,14 +9,14 @@ body {
 .language {
     position: relative;
     display: inline-block;
-    margin-left: 17vw;
+    margin-left: 2vw;
 }
 
 .language span img{
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
-    margin-left: 9rem;
+    /* margin-left: 7vw; */
 }
 
 .drop-down {
@@ -40,9 +40,8 @@ body {
     padding: .5rem;
     font-size: 35px;
     display: flex;
-    flex-basis: 100vw;
+    flex-basis: 100%;
     flex-direction: row;
-    /* justify-content: flex-end; */
 }
 
 .icon {
@@ -50,35 +49,26 @@ body {
     height: 3.5rem;
 }
 
-.sub-header a {
-    /* padding-left: 5.5rem; */
-    padding-right: 4vw;
-    margin-right: 5vw;
-    padding-top: 1rem;
-    
+.sub-header .masc{
+    display: flex;
+    flex-flow: row;
+    margin: 0 5vw;
+}
+
+.masc a{
+    width: 11vw;
+    margin: 1.5vh 4vw 0 4vw;
 }
 
 .return {
     width: 3.5rem;
     height: 3.5rem;
-    border-radius: .5rem;
-    color: black;
-    text-decoration: none;
     object-fit: contain;
-    margin-bottom: 0.001rem;
-    margin-left: 2rem;
     margin-top: .2rem;
 }
 
 
 .ab {
-    display: flex;
-    flex-basis: 100%;
-    /* width: 100rem; */
-}
-
-h1 {
-    font-size: 6.5rem;
     background-image: url(/western-dino-house/images/exterior.jpg); 
     background-position-y: 85%;
     background-repeat: no-repeat;
@@ -86,10 +76,17 @@ h1 {
     height: 25rem;
     resize: both;
     flex-basis: 100%;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    color: black;
+    font-size: 6.5rem;
+    background-color: #D7D3C7;
+    padding: .5rem;
+    border-radius: 20px;
 }
 
 

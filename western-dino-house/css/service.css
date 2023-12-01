@@ -5,18 +5,17 @@ body {
     margin: 0;
 }
 
-
 .language {
     position: relative;
     display: inline-block;
-    margin-right: 0rem;
+    margin-left: 2vw;
 }
 
 .language span img{
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
-    margin-left: 9rem;
+    /* margin-left: 7vw; */
 }
 
 .drop-down {
@@ -42,7 +41,6 @@ body {
     display: flex;
     flex-basis: 100%;
     flex-direction: row;
-    justify-content: flex-end;
 }
 
 .icon {
@@ -50,11 +48,22 @@ body {
     height: 3.5rem;
 }
 
-.sub-header a {
-    padding-left: 5.5rem;
-    padding-right: 10.5rem;
-    padding-top: 1rem;
-    
+.sub-header .masc{
+    display: flex;
+    flex-flow: row;
+    margin: 0 5vw;
+}
+
+.masc a{
+    width: 11vw;
+    margin: 1.5vh 4vw 0 4vw;
+}
+
+.return {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+    margin-top: .2rem;
 }
 
 
