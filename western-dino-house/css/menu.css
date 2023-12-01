@@ -1,8 +1,10 @@
 body {
     display: flex;
     flex-flow: row wrap;
-    background-color: #236154;
     margin: 0;
+    background-image: url(/western-dino-house/images/backgound.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .language {
     position: relative;
@@ -64,6 +66,33 @@ body {
     object-fit: contain;
     margin-top: .2rem;
 }
+
+table {
+    background-color: #236154;
+}
+
+.pic {
+    object-fit: cover;
+    width: 15rem;
+    height: 15rem;
+}
+
+.price::after {
+    background-image: url(/western-dino-house/images/JurassicPAY\ Logo.png);
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-size: cover;
+    content: '';
+}
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #D7D3C7;
