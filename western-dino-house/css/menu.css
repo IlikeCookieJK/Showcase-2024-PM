@@ -67,14 +67,50 @@ body {
     margin-top: .2rem;
 }
 
-table {
+.sidebar {
     background-color: #236154;
+    position: fixed;
+    margin-top: 8vw;
+    margin-left: .5vw;
+    height: auto;
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-radius: 20px;
+}
+
+.sidebar section {
+    margin-bottom: .5rem;
+}
+
+.fd {
+    background-color: #D7D3C7;
+    border-radius: 20px;
+    width: 12vw;
+    padding: .4rem;
+    text-wrap: wrap;
+
+}
+
+.tc {
+    background-color: #D7D3C7;
+    border-radius: 20px;
+    padding: .4rem;
+    width: 3vw;
+    padding: .4rem 9.5vw .4rem .4rem;
+}
+
+.sidebar a {
+    font-size: 2rem;
 }
 
 .pic {
     object-fit: cover;
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;
+    height: 18rem;
 }
 
 .price::after {
@@ -84,12 +120,58 @@ table {
     width: 2rem;
     background-size: cover;
     content: '';
+    transform: translateY(25%);
 }
 
+.menu {
+    margin-left: 20vw;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+}
 
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #236154;
+    overflow: hidden;
+    width: 77vw ;
+    border-radius: 20px;
+    margin-bottom: 2vw;
+}
 
+.name {
+    flex-basis: 100%;
+    margin-top: -2.2rem;
+}
 
+.name h2 {
+    background-color: #D7D3C7;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
 
+.text {
+    background-color: #D7D3C7;
+    width: 16rem;
+    height: 16rem;
+    padding: 1rem;
+    margin-top: -.5rem;
+}
+
+.text h3 {
+    font-size: 1.6rem;
+}
+
+.text p {
+    font-size: 1.4rem;
+}
+
+.m1 {
+    margin-left: 3.3vw;
+    margin-bottom: 1vw;
+}
 
 
 
