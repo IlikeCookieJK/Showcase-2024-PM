@@ -78,8 +78,8 @@ section {
 }
 
 .halfbox {
-    width: 40.5625em;
-    height: 33.654375em;
+    width: 30.5625vw;
+    height: 26.954375vw;
 }
 
 img {
@@ -114,11 +114,8 @@ h2 {
     padding: 0rem 4rem 0rem;
 }
 
-.number {
-    font-family: 'Hedvig Letters Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Work Sans', sans-serif;    
-    font-weight: bold;
+.box :nth-child(5) {
+    font-family: 'Hedvig Letters Serif', serif;
     margin-right: 20rem;
     margin-top: -3rem;
 }
