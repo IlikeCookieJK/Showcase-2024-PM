@@ -84,9 +84,10 @@ body {
 h1 {
     color: black;
     font-size: 6.5rem;
-    background-color: #D7D3C7;
+    background-color: #F8F8F0;
     padding: .5rem;
     border-radius: 20px;
+    border:1px solid;
 }
 
 .pic {
@@ -110,7 +111,7 @@ h1 {
 }
 
 .text {
-    background-color: #D7D3C7;
+    background-color: #F8F8F0;
     border-radius: 0 0 20px 20px;
     padding: .4rem;
 }
@@ -121,6 +122,9 @@ h1 {
 
 .text p {
     font-size: 1.5rem;
+}
+.spaceleft{
+    margin-left:7.9rem;
 }
 
 
