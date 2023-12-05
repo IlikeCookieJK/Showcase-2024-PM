@@ -1,8 +1,10 @@
 body {
     display: flex;
     flex-flow: row wrap;
-    background-color: #236154;
     margin: 0;
+    background-image: url(/western-dino-house/images/backgound.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .language {
@@ -102,6 +104,24 @@ a:visited {
     text-decoration: none;
 }
 
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2vw 3vw;
+}
+
+.title {
+    flex-basis: 100%;
+    background-color: #D7D3C7;
+    width: 70vw;
+}
+#cart {
+    display: grid;
+    background-color: #236154;
+    flex-basis: 100%;
+}
+
+/* 
 .box {
     border: solid;
     border-radius: 2rem;
@@ -148,8 +168,8 @@ body {
     bottom: 10rem;
 }
 .pay{
-    flex-basis: 100%;
-}
+    flex-basis: 10%;
+} */
 p {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;

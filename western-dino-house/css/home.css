@@ -8,14 +8,14 @@ body {
 .language {
     position: relative;
     display: inline-block;
-    margin-right: 0rem;
+    margin-right: 4vw;
 }
 
 .language span img{
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
-    margin-left: 9vw;
+    margin-left: 8vw;
 }
 
 .drop-down {
