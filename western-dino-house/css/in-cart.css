@@ -174,7 +174,6 @@ p {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Sorts Mill Goudy', serif;
-
 }
 
 h1 {
@@ -188,4 +187,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Sorts Mill Goudy', serif;
     border-bottom: solid;
+}
+footer{
+    margin-top: 7vw;
 }

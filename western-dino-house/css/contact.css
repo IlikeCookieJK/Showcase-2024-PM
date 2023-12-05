@@ -59,6 +59,9 @@
     margin-top: .2rem;
 }
 
+.spaceleft{
+    margin-left:5rem ;
+}
 
 section {
     display: flex;
