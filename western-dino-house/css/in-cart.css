@@ -76,7 +76,8 @@ footer {
     flex-basis: 100%;
     padding: 1.5rem;
     font-size: 1.5rem;
-    /* border: 1px solid red; */
+    
+
 }
 
 footer section {
@@ -107,18 +108,86 @@ a:visited {
 .content {
     display: flex;
     flex-flow: row wrap;
-    margin: 2vw 3vw;
+    margin: 2vw;
 }
 
 .title {
     flex-basis: 100%;
-    background-color: #D7D3C7;
-    width: 70vw;
 }
+.title h1{
+    width: 70vw;
+    background-color: #D7D3C7;
+    font-size: 3rem;
+    padding: .5rem;
+}
+
 #cart {
     display: grid;
+    flex-basis: 75%;
+    margin-top: -4.8rem;
+}
+
+#cart p {
     background-color: #236154;
+    width: 70vw;
+    font-size: 1.8rem;
+    padding: .5rem;
+    min-height: 20vw;
+}
+
+
+.condiments {
+    flex-basis: 15%;
+}
+
+.option {
+    background-color: #236154;
+    width: 34rem;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 1rem;
+    padding: .5rem;
+    margin-top: -2.9rem;
+}
+
+.option h1{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.option p{
+    font-size: 1.8rem;
+    margin-top: -1rem;
+}
+
+.total {
     flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-right: 2vw;
+}
+
+.total p{
+    background-color: #236154;
+    width: 8rem;
+    font-size: 2.4rem;
+    /* margin: ; */
+}
+
+.pay {
+    flex-basis: 100%;
+}
+
+.bg {
+    background-color: #236154;
+    width: 6vw;
+    font-size: 2.4rem;
+}
+
+.bg {
+    background-color: #236154;
+
 }
 
 /* 
