@@ -30,6 +30,7 @@ body {
     padding: 5px 9px;
     z-index: 0;
     margin-right: 4rem;
+    height: 55.4rem;
 }
 
 .language:hover  .drop-down{
@@ -131,9 +132,9 @@ h1 {
     background-color: #F8F8F0;
     flex-wrap: wrap;
     margin-top: -0.2rem;
-    padding: .2rem;
-    width: 24.6rem;
-    height: 16rem;
+    padding: 1.2rem;
+    width: 22.6rem;
+    height: 19rem;
     border-radius: 0 0 10px 10px;
     border-bottom:1px solid;
     border-left:1px solid;
@@ -212,5 +213,14 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Sorts Mill Goudy', serif;
     border-bottom: solid;
+}
+.lnbutton{
+    border-top: solid;
+    text-wrap: nowrap;
+    padding-bottom: 2rem;
+    margin-bottom: -1.5rem;
+}
+.lnbutton:hover{
+   background-color: #F8F8F0;
 }
 

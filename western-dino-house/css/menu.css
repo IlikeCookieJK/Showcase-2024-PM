@@ -135,6 +135,9 @@ body {
 .button:hover{
     background-color: #Eeb01f;
 }
+.button:active{
+    background-color: #F3d13c;
+}
 .menu {
     margin-left: 20vw;
     display: flex;
@@ -246,4 +249,7 @@ h2 {
 
 #cartItemCount::after {
     content: ")";
+}
+[p~="soda"]{
+    margin-bottom: 100rem;
 }
