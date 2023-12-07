@@ -161,7 +161,15 @@ body {
 }
 
 .text p {
+    display: flex;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
     font-size: 1.4rem;
+}
+
+.prodDesc {
+    display: flex;
+
 }
 
 .m1 {
@@ -185,9 +193,9 @@ body {
 
 .button{
     margin-left: 9.5rem;
-    margin-top: -4rem;
+    margin-top: -3.3rem;
     display: block;
-    bottom: 3rem;
+
     border: 2px solid;
     border-radius: .5rem;
     padding: 0.3rem;
