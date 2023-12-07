@@ -1,5 +1,5 @@
 function openForm() {
-    document.getElementById("buyPopUp").style.display = "block";
+    document.getElementById("buyPopUp").style.display = "flex ";
   }
   
   function closeForm() {

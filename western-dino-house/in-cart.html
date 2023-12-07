@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans:ital,wght@1,300&family=Sorts+Mill+Goudy&display=swap"
         rel="stylesheet">
+    <script src="javascript/pop-up.js"></script>
 </head>
 
 <body>
@@ -50,23 +51,39 @@
         <div id="cart">
             <p>You have a empty cart</p>
         </div>
-
         <section class="condiments">
             <section class="option">
-                <h1>Condiments</h1>
-                <p>Ketchup</p>
-                <p>Mustard</p>
-                <p>Ranch</p>
-                <p>Mayonnaise</p>
+                <form action="">
+                    <fieldset>
+                        <legend>condiments</legend>
+                        <input type="radio" id="ketchup">
+                        <label for="ketchup">Ketchup</label><br />
+                        <input type="radio" id="ranch">
+                        <label for="ranch">Ranch</label><br />
+                        <input type="radio" id="mustard">
+                        <label for="mustard">Mustard</label><br />
+                        <input type="radio" id="Mayo">
+                        <label for="Mayo">Mayo</label><br />
+                    </fieldset>
+                </form>
+
             </section>
             <section class="total">
                 <p>Total</p>
             </section>
             <section class="pay">
                 <section class="bg">
-                    <a href="/western-dino-house/payment.html" class="button">Pay</a>
+                    <a onclick="openForm()" href="#" class="button">Pay</a>
                 </section>
             </section>
+        </section>
+        <section id="buyPopUp" class="payment">
+            <aside>
+                <h3 class="poptitle">Insert Payment Information</h3>
+                <input class="input pin" placeholder="Pin Code" type="text">
+                <input class="input" placeholder="Phone Number" type="text">
+                <a onclick="closeForm()" class="SBbutton" href="#">Submit</a>
+            </aside>
         </section>
     </section>
     <footer>
