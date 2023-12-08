@@ -43,6 +43,7 @@ body {
     display: flex;
     flex-basis: 100%;
     flex-direction: row;
+    justify-content: center;
 }
 
 .icon {
@@ -100,14 +101,14 @@ h1 {
 }
 
 .service {
-    margin: 1vw 5vw;
+    margin: 2vw 0vw;
     display: flex;
 }
 
 .s2 {
     display: flex;
     flex-flow: column wrap;
-    margin-right: 6vw;
+    margin-right: 4.9vw;
 }
 
 .text {
@@ -124,7 +125,7 @@ h1 {
     font-size: 1.5rem;
 }
 .spaceleft{
-    margin-left:7.9rem;
+    margin-left:3.8rem;
 }
 
 

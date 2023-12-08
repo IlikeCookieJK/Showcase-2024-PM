@@ -35,17 +35,6 @@ body {
     display: block;
 }
 
-.lnbutton{
-    border-top: solid;
-    text-wrap: nowrap;
-}
-.lnbutton:hover{
-   background-color: #F8F8F0;
-}
-.ln:hover{
-    background-color: #F8F8F0;
-    border-radius: 0.5rem;
-}
 
 .sub-header {
     background-color: #D7D3C7;
@@ -54,6 +43,7 @@ body {
     display: flex;
     flex-basis: 100%;
     flex-direction: row;
+    justify-content: center;
 }
 
 .icon {
@@ -147,6 +137,13 @@ a:visited {
     height: 32rem;
 }
 
+.cond {
+    flex-basis: 50%;
+
+    color: white;
+    font-size: 1.6rem;
+}
+
 
 .condiments {
     flex-basis: 15%;
@@ -160,10 +157,12 @@ a:visited {
     flex-flow: column wrap;
     margin-left: 1rem;
     padding: .5rem;
+    display: flex;
+    flex-flow: row wrap;
 
 }
 
-.option h1{
+.option h2{
     background-color: #D7D3C7;
     padding: .3rem;
     min-width: 32.35rem;
@@ -229,24 +228,7 @@ a:visited {
     background-color: #D7D3C7;
 }
 
-p {
-    font-family: 'Lora', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
-}
 
-h1 {
-    font-family: 'Lora', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
-}
-
-h2 {
-    font-family: 'Lora', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
-    border-bottom: solid;
-}
 footer{
     margin-top: 7vw;
 }
