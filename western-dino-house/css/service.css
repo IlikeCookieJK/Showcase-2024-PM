@@ -264,12 +264,36 @@ h2 {
         margin-top: .2rem;
     }
 
+    .os {
+        height: 15rem;
+    }
 
+    .os h1{
+        font-size: 3.5rem;
+    }
 
+    .service {
+        display: flex;
+        flex-flow: row wrap;
+    }
 
+    .pic {
+        width: 100vw;
+        height: 50vw;
+        border: 0;
+    }
 
+    .s2 {
+        margin: 3vw 0 3vw 0;
+    }
 
+    .text h2{
+        font-size: 2.5rem;
+    }
 
+    .text p{
+        font-size: 1.5rem;
+    }
 
 
     footer section a:first-of-type {
