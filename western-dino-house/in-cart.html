@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans:ital,wght@1,300&family=Sorts+Mill+Goudy&display=swap"
         rel="stylesheet">
     <script src="javascript/pop-up.js"></script>
+    <script src="javascript/faux-cart.js"></script>
 </head>
 
 <body>
@@ -49,10 +50,11 @@
             <h1>In Cart</h1>
         </section>
         <div id="cart">
-            <p>You have a empty cart</p>
+           
+
         </div>
         <section class="condiments">
-            <section class="option">
+            <!-- <section class="option">
                 <h2>Condiments</h2>
                 <label class="cond">Ketchup</label>
                 <input type="checkbox" checked="checked">
@@ -66,25 +68,25 @@
                 <label class="cond">Hot Sauce</label>
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
-            </section>
+            </section> -->
             <section class="tp">
-                <section class="total">
+                <!-- <section class="total">
                     <p>Total</p>
-                </section>
-                <section class="pay">
-                    <section class="bg">
-                        <a onclick="openForm()" href="#" class="button">Pay</a>
-                    </section>
-                </section>
-                <section id="buyPopUp" class="payment">
-                    <aside>
-                        <h3 class="poptitle">Insert Payment Information</h3>
-                        <input class="input pin" placeholder="Pin Code" type="text">
-                        <input class="input" placeholder="Phone Number" type="text">
-                        <a onclick="closeForm()" class="SBbutton" href="#">Pay</a>
-                    </aside>
-                </section>
+                </section> -->
             </section>
+        </section>
+        <section class="pay">
+            <section class="bg">
+                <a onclick="openForm()" href="#" class="button">Pay</a>
+            </section>
+        </section>
+        <section id="buyPopUp" class="payment">
+            <aside>
+                <h3 class="poptitle">Insert Payment Information</h3>
+                <input class="input pin" placeholder="Pin Code" type="text">
+                <input class="input" placeholder="Phone Number" type="text">
+                <a onclick="closeForm(), emptyCart()" class="SBbutton" href="home.html">Pay</a>
+            </aside>
         </section>
     </main>
     <footer>

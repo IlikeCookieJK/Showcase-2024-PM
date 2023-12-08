@@ -182,19 +182,15 @@ body {
     font-size: 1.8rem;
 }
 
-.price::after {
-    background-image: url(/western-dino-house/images/JurassicPAY\ Logo.png);
-    display: inline-block;
-    height: 2rem;
-    width: 2rem;
-    background-size: cover;
-    content: '';
-    transform: translateY(25%);
+.price{
+    height: 1.2rem;
+    width: 1.2rem;
+
 }
 
 .button{
     margin-left: 9.5rem;
-    margin-top: -3.3rem;
+    margin-top: -1rem;
     display: block;
 
     border: 2px solid;

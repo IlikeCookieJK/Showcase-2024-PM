@@ -116,25 +116,45 @@ main {
     flex-basis: 100%;
 }
 .title h1{
-    width: 65vw;
+    width: 62.52rem;
     background-color: #D7D3C7;
     font-size: 3rem;
     padding: .5rem;
+    margin-left: 28.5rem;
 }
 
 #cart {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: 65%;
-    margin-top: -4.8rem;
-}
-
-#cart p {
     background-color: #236154;
+    margin-top: -2.5rem;
+    min-height: 30rem;
+    max-height: 90rem;
+    max-width: 62.52rem;
+    min-width: 62.52rem;
+    margin-left: 28.5rem;
+
+}
+.cartItemInfo{
+    background-color: #D7D3C7;
+    width: 10rem;
+    max-height: 17rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+*{
+    box-sizing: border-box;
+}
+.cartTotal{
+    position: absolute;
+    left: 77rem;
+    top: 13.5%;
+    font-size: 2em;
+}
+.removeBtn{
     color: white;
-    width: 65vw;
-    font-size: 1.8rem;
-    padding: .5rem;
-    height: 32rem;
 }
 
 .cond {
@@ -199,14 +219,14 @@ main {
 }
 
 .bg {
-    background-color: #236154;
+    /* background-color: #236154;
     width: 32rem;
     margin-top: -2.4rem;
     margin-left: 1rem;
     height: 4rem;
     padding: .5rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end; */
 }
 
 .tp {
@@ -224,6 +244,10 @@ main {
     height: 2.9rem;
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 53rem;
+    bottom: 5rem;
+    margin-left: 28.5rem;
 }
 
 .bg a:hover{
