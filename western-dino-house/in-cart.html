@@ -44,7 +44,7 @@
             <a href="/western-dino-house/contact.html">Contact</a>
         </section>
     </section>
-    <section class="content">
+    <main>
         <section class="title">
             <h1>In Cart</h1>
         </section>
@@ -67,24 +67,26 @@
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
             </section>
-            <section class="total">
-                <p>Total</p>
-            </section>
-            <section class="pay">
-                <section class="bg">
-                    <a onclick="openForm()" href="#" class="button">Pay</a>
+            <section class="tp">
+                <section class="total">
+                    <p>Total</p>
+                </section>
+                <section class="pay">
+                    <section class="bg">
+                        <a onclick="openForm()" href="#" class="button">Pay</a>
+                    </section>
+                </section>
+                <section id="buyPopUp" class="payment">
+                    <aside>
+                        <h3 class="poptitle">Insert Payment Information</h3>
+                        <input class="input pin" placeholder="Pin Code" type="text">
+                        <input class="input" placeholder="Phone Number" type="text">
+                        <a onclick="closeForm()" class="SBbutton" href="#">Submit</a>
+                    </aside>
                 </section>
             </section>
         </section>
-        <section id="buyPopUp" class="payment">
-            <aside>
-                <h3 class="poptitle">Insert Payment Information</h3>
-                <input class="input pin" placeholder="Pin Code" type="text">
-                <input class="input" placeholder="Phone Number" type="text">
-                <a onclick="closeForm()" class="SBbutton" href="#">Submit</a>
-            </aside>
-        </section>
-    </section>
+    </main>
     <footer>
         <section>
             <a href="/western-dino-house/about.html">About Us</a>
