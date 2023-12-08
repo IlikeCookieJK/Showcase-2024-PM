@@ -35,6 +35,17 @@ body {
     display: block;
 }
 
+.lnbutton{
+    border-top: solid;
+    text-wrap: nowrap;
+}
+.lnbutton:hover{
+   background-color: #F8F8F0;
+}
+.ln:hover{
+    background-color: #F8F8F0;
+    border-radius: 0.5rem;
+}
 
 .sub-header {
     background-color: #D7D3C7;

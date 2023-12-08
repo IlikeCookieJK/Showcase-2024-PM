@@ -30,7 +30,7 @@ body {
     padding: 5px 9px;
     z-index: 0;
     margin-right: 4rem;
-    height: 55.4rem;
+    height: 62.4rem;
 }
 
 .language:hover  .drop-down{
@@ -217,8 +217,6 @@ h2 {
 .lnbutton{
     border-top: solid;
     text-wrap: nowrap;
-    padding-bottom: 2rem;
-    margin-bottom: -1.5rem;
 }
 .lnbutton:hover{
    background-color: #F8F8F0;
