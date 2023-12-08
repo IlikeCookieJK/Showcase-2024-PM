@@ -233,7 +233,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: .5vw .5vw .5vw 0;
-    font-size: 5vw;
+    font-size: 4.8vw;
     width: 20vw;
 }
 
@@ -294,6 +294,7 @@ footer section{
 }
 
 footer a{
+    margin-left: -9.8vw;
     font-size: 5vw;
     padding-bottom: 2vw;
 }
