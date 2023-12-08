@@ -276,12 +276,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 35rem;
     border: solid;
     height: 2rem;
     width: 5rem;
     border-radius: 2rem;
     background-color: #C4c896;
+    position: sticky;
+    left: 61%;
 }
 .SBbutton:hover{
     background-color: #236154;
@@ -294,11 +295,10 @@ body{
 }
 .poptitle{ 
     height: 2rem;
-    position: relative;
-    left: 9rem;
+    margin-left: 32%;
+    margin-right: 25%;
     font-size: 1.8em;
     border-bottom: solid;
-    padding: 0rem 5rem;
 }
 @media only screen and (max-width:1800px){
 
