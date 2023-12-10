@@ -233,16 +233,7 @@ main {
     flex-basis: 100%;
 }
 
-.bg {
-    /* background-color: #236154;
-    width: 32rem;
-    margin-top: -2.4rem;
-    margin-left: 1rem;
-    height: 4rem;
-    padding: .5rem;
-    display: flex;
-    justify-content: flex-end; */
-}
+
 
 .tp {
     display: flex;
