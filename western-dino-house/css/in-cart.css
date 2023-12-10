@@ -7,6 +7,20 @@ body {
     background-repeat: no-repeat;
 }
 
+
+*{
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Garamond', serif;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'gramond', serif;
+    border-bottom: solid;
+}
+
 .language {
     position: relative;
     display: inline-block;

@@ -152,7 +152,7 @@ body {
 .text {
     background-color: #D7D3C7;
     width: 16rem;
-    height: 17rem;
+    height: 16rem;
     padding: 1rem;
     margin-top: -.5rem;
 }
@@ -178,19 +178,22 @@ body {
     margin-bottom: 1vw;
 }
 
-.text .price {
-    font-size: 1.8rem;
-}
+
 
 .price{
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: -.5rem;
+}
 
+.text {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .button{
     margin-left: 9.5rem;
-    margin-top: -1rem;
+    margin-top: -2rem;
     display: block;
 
     border: 2px solid;
@@ -241,22 +244,16 @@ a:visited {
     text-decoration: none;
 }
 
-p {
+*{
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
-}
-
-h1 {
-    font-family: 'Lora', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Garamond', serif;
 }
 
 h2 {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'gramond', serif;
     border-bottom: solid;
 }
 #cartItemCount::before {
@@ -268,4 +265,9 @@ h2 {
 }
 [p~="soda"]{
     margin-bottom: 100rem;
+}
+
+.prodPrice {
+    font-size: 1.4rem;
+
 }

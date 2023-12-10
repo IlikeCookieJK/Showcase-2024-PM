@@ -164,25 +164,19 @@ a:visited {
     color: black;
     text-decoration: none;
 }
-p {
-    font-family: 'Lora', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
-}
 
-h1 {
+*{
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Garamond', serif;
 }
 
 h2 {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'gramond', serif;
     border-bottom: solid;
 }
-
 .hl {
     display: flex;
     flex-flow: row wrap;
