@@ -286,7 +286,7 @@ a:visited {
         left: 3.7rem;
         bottom: 1rem;
     }
-    img{
+    main img{
         display: none;
     }
     .number{
@@ -311,5 +311,11 @@ a:visited {
     }
     .button{
         margin-left: 0rem;
+    }
+    .language{
+        margin-right: 20.29rem;
+    }
+    .con{
+        margin-right: 1.6rem !important;
     }
 }
