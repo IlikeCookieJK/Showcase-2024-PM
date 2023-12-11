@@ -349,6 +349,10 @@ h2 {
         font-size: 5vw;
     }
 
+    .sidebar .fd {
+        width: 20rem;
+    }
+
     .fd img {
         height: 20px;
         margin-top: .2rem;
@@ -359,7 +363,7 @@ h2 {
     }
 
     .sidebar section {
-        flex-basis: 46%;
+        flex-basis: 44%;
         display: flex;
         justify-content: center;
         align-self: center;
@@ -380,13 +384,17 @@ h2 {
         width: 100vw;
     }
 
+    .name h2 {
+        font-size: 2rem;
+    }
+
     .items {
         margin: 1rem 0;
         width: 100vw;
     }
     
     .m1 {
-        margin: 0vw 16.2vw 4vw;
+        margin: 0vw 3.4rem 1.5rem 3.4rem;
     }
 
 }
