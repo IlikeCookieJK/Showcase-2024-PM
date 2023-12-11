@@ -9,6 +9,10 @@ body {
     background-image: url(/western-dino-house/images/backgound.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+    max-height: auto;
 }
 
 .language {
@@ -31,13 +35,13 @@ body {
     font-size: 25px;
     min-width: 180px;
     padding: 5px 9px;
-    z-index: 0;
+    z-index: 999;
     margin-right: 4rem;
 }
 
 .language:hover .drop-down {
     display: block;
-    z-index: 1;
+    z-index: 999;
 }
 
 
@@ -79,18 +83,23 @@ body {
 }
 
 .sidebar {
-    background-color: #236154;
-    position: fixed;
-    margin-top: 7.5vw;
-    margin-left: .5vw;
-    height: auto;
-    width: 18rem;
     display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
+    flex-basis: 20%;
+    background-color: #236154;
+    position: sticky;
+    top: 2vw;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: -10rem;
+    width: 18rem;
+    flex-flow: column ;
     align-items: center;
     padding: 1.5rem 0;
     border-radius: 20px;
+}
+
+.bg .sidebar {
+    max-height: 20rem;
 }
 
 .sidebar section {
@@ -125,11 +134,14 @@ body {
 }
 
 .menu {
-    margin-left: 20vw;
+    margin-left: 2rem;
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     margin-top: 2rem;
     margin-bottom: 0vw;
+    flex-basis: 100%;
+    width: 72%;
 }
 
 .items {
@@ -288,14 +300,62 @@ h2 {
     justify-content: flex-start;
 }
 
-@media only screen and (max-width: 1500px) {
+.fd a {
+    display: flex;
+    flex-flow: row wrap;
+    /* width: vw; */
+}
+
+.fd span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: -2.5rem; */
+    height: 2rem;
+}
+
+.fd p {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 0%;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .bg {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
     .sidebar {
         display: flex;
         flex-flow: row wrap;
+        position: sticky;
+        flex-basis: 100%;
         width: 100vw;
-        padding: 5vw 0;
+        height: 38vw;
+        padding:0;
+        padding-top: .5rem;
         margin: 0;
-        top: 1vw;
+        top: 0vw;
+        border-radius: 0;
+        z-index: 998;
+    }
+
+
+    .sidebar .fd a{
+        font-size: 5vw;
+    }
+
+    .fd img {
+        height: 20px;
+        margin-top: .2rem;
+    }
+
+    span {
+        margin-top: -.3rem;
     }
 
     .sidebar section {
@@ -303,6 +363,30 @@ h2 {
         display: flex;
         justify-content: center;
         align-self: center;
-        margin-left: -1vw;
+        margin-left: .2rem;
     }
+
+    .menu {
+        margin-left: 20vw;
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 0rem;
+        margin-bottom: 0vw;
+    }
+
+    .menu {
+        margin: 0;
+        flex-basis: 100%;
+        width: 100vw;
+    }
+
+    .items {
+        margin: 1rem 0;
+        width: 100vw;
+    }
+    
+    .m1 {
+        margin: 0vw 16.2vw 4vw;
+    }
+
 }

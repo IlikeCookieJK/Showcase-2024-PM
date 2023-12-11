@@ -234,7 +234,7 @@ h2 {
     flex-flow: row wrap;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
 
     .ab {
         height: 15rem;

@@ -16,7 +16,8 @@
     justify-content: flex-start;
 }
 
-@media only screen and (max-width: 1500px) {
+
+@media only screen and (max-width: 640px) {
 
     .hl{
         display: flex;
@@ -56,6 +57,7 @@
 
     .sub-header {
         padding: 0;
+        min-width: 100vw;
         max-width: 100vw;
     }
 
