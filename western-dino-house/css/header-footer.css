@@ -37,6 +37,7 @@
         min-width: 19vw;
         transform: translateX(-27%);
         height: 43rem;
+        z-index: 999;
     }
 
     .language:hover .drop-down {
