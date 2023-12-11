@@ -4,7 +4,7 @@
     margin-left: 2vw;
 }
 
-.language span img{
+.language span img {
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
@@ -22,7 +22,7 @@
     margin-right: 4rem;
 }
 
-.language:hover  .drop-down{
+.language:hover .drop-down {
     display: block;
 }
 
@@ -42,13 +42,13 @@
     height: 3.5rem;
 }
 
-.sub-header .masc{
+.sub-header .masc {
     display: flex;
     flex-flow: row;
     margin: 0 5vw;
 }
 
-.masc a{
+.masc a {
     width: 11vw;
     margin: 1.4vh 4vw 0 4vw;
 }
@@ -60,8 +60,8 @@
     margin-top: .2rem;
 }
 
-.spaceleft{
-    margin-left:5rem ;
+.spaceleft {
+    margin-left: 5rem;
 }
 
 section {
@@ -82,8 +82,13 @@ section {
 }
 
 .halfbox {
-    width: 30.5625vw;
-    height: 26.954375vw;
+    width: 48.5rem;
+    height: 48.5rem;
+}
+
+.size {
+    min-width: 105rem;
+    max-width: 105rem;
 }
 
 img {
@@ -92,8 +97,33 @@ img {
     object-fit: cover;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    background-image: url(/western-dino-house/images/Contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    border-bottom: solid;
+    height: 25rem;
+
+}
+
+h1 {
+    border: solid;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #F8F8F0;
+    position: relative;
+    bottom: 3rem;
+
+}
+
 .box p {
-    font-size: 2.5rem;
+    font-size: 2.2vw;
     flex-basis: 100%;
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
@@ -101,8 +131,7 @@ img {
     padding-left: 1rem;
 
 }
-
-*{
+* {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Garamond', serif;
@@ -130,10 +159,12 @@ h2 {
     margin-right: 20rem;
     margin-top: -3rem;
 }
-.email{
+
+.email {
     margin-top: -3rem;
-    font-weight:initial;
+    font-weight: initial;
 }
+
 body {
     background-color: #236154;
     margin: 0;
@@ -178,7 +209,6 @@ p:first-of-type {
 
 .spaceup {
     margin-top: 2rem;
-    flex-basis: 100%;
 }
 
 footer {
@@ -213,4 +243,73 @@ a:link {
 a:visited {
     color: black;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+    p{
+        font-size: 5vw  !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 50%;
+        background-image: url(/western-dino-house/images/Contact.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 100%;
+        border-bottom: solid;
+        height: 15rem;
+        width: 270rem;
+        flex-basis: 100%;
+    }
+
+    h1 {
+        width: 10rem;
+        height: 5rem;
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        bottom: 0rem;
+    }
+
+    .halfbox {
+        width: 22rem;
+        height: 31rem;
+    }
+    .spaceright{
+        position: relative;
+        left: 3.7rem;
+        bottom: 1rem;
+    }
+    img{
+        display: none;
+    }
+    .number{
+         height: 2rem;
+         margin-right: 0rem !important;
+    }
+    .size{
+        max-width: 22rem;
+        min-width: 22rem;
+    }
+    .four{
+        margin-right: 0rem !important;
+    }
+    h2{
+        font-size: 3rem !important;
+    }
+    .spaceright h2{
+        margin-left: 2rem;
+    }
+    h2{
+        border-bottom: none;
+    }
+    .button{
+        margin-left: 0rem;
+    }
 }

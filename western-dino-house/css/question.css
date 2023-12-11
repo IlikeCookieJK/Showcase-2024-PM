@@ -8,7 +8,7 @@ body {
     margin-left: 2vw;
 }
 
-.language span img{
+.language span img {
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
@@ -26,7 +26,7 @@ body {
     margin-right: 4rem;
 }
 
-.language:hover  .drop-down{
+.language:hover .drop-down {
     display: block;
 }
 
@@ -45,13 +45,13 @@ body {
     height: 3.5rem;
 }
 
-.sub-header .masc{
+.sub-header .masc {
     display: flex;
     flex-flow: row;
     margin: 0 5vw;
 }
 
-.masc a{
+.masc a {
     width: 11vw;
     margin: 1.5vh 4vw 0 4vw;
 }
@@ -62,51 +62,84 @@ body {
     object-fit: contain;
     margin-top: .2rem;
 }
-.name{
+
+.name {
     padding: 0rem 0rem 0rem;
     resize: none;
     margin-right: 55%;
     margin-left: 31.7%;
     margin-bottom: 2rem;
 }
-.question{
+
+.question {
     resize: none;
 }
-.center{
+
+.center {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     margin-top: 10vw;
+    background-color: #D7D3C7;
+    height: 20vw;
+    width: 52vw;
+    border: solid;
+    border-radius: 2rem;
+    position: relative;
+    left: 23.5vw;
 
 }
-body{
+
+body {
     background-color: #236154;
 }
-.button{
+
+.button {
     border: 1px solid;
     border-radius: 0.1rem;
     color: black;
     text-decoration: none;
     background-color: whitesmoke;
     padding: 0rem 0.5rem;
-    flex-basis: 100%;
-    position: relative;
-    right: 39rem;
+    width: 2.2rem;
+    transform: translate(-23vw,1vw);
 }
-.button:hover{
+
+.button:hover {
     background-color: rgb(238, 238, 238);
 }
-.textbox{
+
+.name {
+    transform: translate(-11.6vw, 0vw);
+}
+
+.content {
+    transform: translate(0vw,-2vw);
+    width: 42vw;
+    height: 12vw;
+    resize: none;
+}
+
+.submit {
+    border: 1px solid;
+    border-radius: 0.1rem;
+    color: black;
+    background-color: whitesmoke;
+    transform: translate(0vw,6vw);
+}
+
+.textbox {
     background-color: #F8F8F0;
 }
-.spacetop{
+
+.spacetop {
     margin-top: 2rem;
 }
-.submit{
-    flex-basis: 100%;
-   margin-left: 64.3%;
-   margin-top: 2rem;
+
+.submit {
+    flex-basis: 0%;
+    /* margin-left: 64.3%; */
 }
 
 footer {
@@ -142,4 +175,39 @@ a:link {
 a:visited {
     color: black;
     text-decoration: none;
+}
+@media only screen and (max-width:640px){
+    .center{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40vw;
+        background-color: #D7D3C7;
+        height: 50vw;
+        width: 72vw;
+        border: solid;
+        border-radius: 2rem;
+        position: relative;
+        left: 13.5vw;
+    }
+   .name{
+        margin-left: 64%;
+    }
+    .content{
+        transform: translate(6vw,-10vw);
+        width: 56vw;
+        height: 15vw;
+        resize: none;
+    }
+    .submit {
+        border: 1px solid;
+        border-radius: 0.1rem;
+        color: black;
+        background-color: whitesmoke;
+        transform: translate(-6vw,6vw);
+    }
+    footer{
+        margin-top: 40vh;
+    }
 }
