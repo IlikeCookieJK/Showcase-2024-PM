@@ -93,7 +93,7 @@ footer {
     font-size: 1.5rem;
     align-items: flex-end;
     justify-content: flex-end;
-
+    margin-top: 10vw;
 }
 
 footer section {
@@ -152,6 +152,7 @@ main {
 .cartItemInfo{
     background-color: #D7D3C7;
     width: 9rem;
+    border-radius: 20px;
     min-height: 17rem;
     margin-left: 2rem;
     margin-bottom: 1rem;

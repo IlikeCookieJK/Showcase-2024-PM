@@ -17,7 +17,7 @@ body header {
 }
 
 nav {
-    width: 99vw;
+    width: 98.5vw;
     font-size: 1.3rem;
     color: green;
 }
@@ -29,3 +29,9 @@ header a:link{
 header a:visited {
     color: rgb(0, 68, 0);
 }
+
+/* *{
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Garamond', serif;
+} */
