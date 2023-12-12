@@ -292,9 +292,8 @@ h2 {
 
 }
 
-.sub-header {
-    flex-flow: row wrap;
-}
+
+
 .hl{
     display: flex;
     justify-content: flex-start;
