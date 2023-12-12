@@ -148,7 +148,7 @@ h1 {
 
 .emp {
     display: flex;
-    margin: 0 10vw;
+    margin: 0 -3vw;
     flex-wrap: wrap;
 }
 
@@ -244,7 +244,7 @@ main {
     }
 
     .mission {
-        margin: 3vw 16vw;
+        margin: 3vw 3vw;
     }
 
     .mission h2{
