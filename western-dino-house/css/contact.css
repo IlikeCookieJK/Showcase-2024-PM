@@ -97,7 +97,7 @@ img {
     object-fit: cover;
 }
 
-.header {
+.header2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +109,9 @@ img {
     border-bottom: solid;
     height: 25rem;
 
+}
+header{
+    background-image: url(#);
 }
 
 h1 {
@@ -251,7 +254,7 @@ a:visited {
         margin-bottom: 3rem !important;
     }
 
-    .header {
+    .header2 {
         display: flex;
         justify-content: center;
         align-items: center;
