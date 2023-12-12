@@ -213,17 +213,11 @@ h2 {
     border-bottom: solid;
 }
 
-/* .lnbutton{
-    border-top: solid;
-    text-wrap: nowrap;
+main {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 95vw;
 }
-.lnbutton:hover{
-   background-color: #F8F8F0;
-}
-.ln:hover{
-    background-color: #F8F8F0;
-    border-radius: 0.5rem;
-} */
 
 .hl {
     display: flex;
