@@ -425,12 +425,13 @@ body{
 
     .payment aside {
         margin: 0;
+        height: 19rem;
         margin-top: -20rem;
         width: 100vw;
     }
 
     .poptitle{ 
-        height: 4rem;
+        height: 2rem;
         margin-left: 2rem;
         margin-right: 25%;
         font-size: 1.8em;
