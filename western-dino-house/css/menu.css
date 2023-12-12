@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-flow: column wrap;
-    width: 100vw;
+    width: 99.2vw;
     max-height: auto;
 }
 
@@ -138,10 +138,10 @@ body {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    margin-top: 2rem;
+    margin-top: -23rem;
     margin-bottom: 0vw;
     flex-basis: 100%;
-    width: 72%;
+    /* width: 72%; */
 }
 
 .items {
