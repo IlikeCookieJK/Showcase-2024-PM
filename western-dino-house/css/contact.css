@@ -110,7 +110,8 @@ img {
     height: 25rem;
 
 }
-header{
+
+header {
     background-image: url(#);
 }
 
@@ -134,6 +135,7 @@ h1 {
     padding-left: 1rem;
 
 }
+
 * {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
@@ -249,8 +251,8 @@ a:visited {
 }
 
 @media only screen and (max-width: 640px) {
-    p{
-        font-size: 5vw  !important;
+    p {
+        font-size: 5vw !important;
         margin-bottom: 3rem !important;
     }
 
@@ -284,41 +286,52 @@ a:visited {
         width: 22rem;
         height: 31rem;
     }
-    .spaceright{
+
+    .spaceright {
         position: relative;
         left: 3.7rem;
         bottom: 1rem;
     }
-    main img{
+
+    main img {
         display: none;
     }
-    .number{
-         height: 2rem;
-         margin-right: 0rem !important;
+
+    .number {
+        height: 2rem;
+        margin-right: 0rem !important;
     }
-    .size{
+
+    .size {
         max-width: 22rem;
         min-width: 22rem;
     }
-    .four{
+
+    .four {
         margin-right: 0rem !important;
     }
-    h2{
+
+    h2 {
         font-size: 3rem !important;
     }
-    .spaceright h2{
+
+    .spaceright h2 {
         margin-left: 2rem;
     }
-    h2{
+
+    h2 {
         border-bottom: none;
     }
-    .button{
+
+    .button {
         margin-left: 0rem;
     }
-    .language{
+
+    .language {
         margin-right: 19rem;
     }
-    .con{
+
+    .con {
         margin-right: 1.6rem !important;
     }
 }

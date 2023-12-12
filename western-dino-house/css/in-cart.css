@@ -8,7 +8,7 @@ body {
 }
 
 
-*{
+* {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Garamond', serif;
@@ -130,7 +130,8 @@ main {
 .title {
     flex-basis: 100%;
 }
-.title h1{
+
+.title h1 {
     width: 61.52rem;
     background-color: #D7D3C7;
     font-size: 3rem;
@@ -149,7 +150,8 @@ main {
     margin-left: 28.5rem;
 
 }
-.cartItemInfo{
+
+.cartItemInfo {
     background-color: #D7D3C7;
     width: 9rem;
     border-radius: 20px;
@@ -169,7 +171,7 @@ main {
 
 .cartItemPricing {
     display: flex;
-    flex-flow: column wrap;    
+    flex-flow: column wrap;
 }
 
 .cartItemPricing a {
@@ -177,7 +179,7 @@ main {
     align-items: flex-end;
 }
 
-.cartTotal{
+.cartTotal {
     font-size: 2.5rem;
     position: absolute;
     display: flex;
@@ -187,7 +189,8 @@ main {
     margin-top: -6.8rem;
     margin-right: -24rem;
 }
-.removeBtn{
+
+.removeBtn {
     display: flex;
     align-items: flex-end;
     width: 3.5rem;
@@ -221,7 +224,7 @@ main {
 
 }
 
-.option h2{
+.option h2 {
     background-color: #D7D3C7;
     padding: .3rem;
     min-width: 32.35rem;
@@ -230,7 +233,7 @@ main {
     margin-left: -0.45rem;
 }
 
-.option p{
+.option p {
     font-size: 1.8rem;
     color: white;
     margin-top: -1rem;
@@ -243,7 +246,7 @@ main {
     justify-content: flex-start;
 }
 
-.total p{
+.total p {
     background-color: #236154;
     color: white;
     margin-top: 2rem;
@@ -273,7 +276,7 @@ main {
     margin-bottom: 10rem;
 }
 
-.bg a{
+.bg a {
     background-color: #D7D3C7;
     padding: .3rem;
     width: 7rem;
@@ -287,7 +290,7 @@ main {
     margin-left: 52.5rem;
 }
 
-.bg a:hover{
+.bg a:hover {
     background-color: #b1aea3;
 }
 
@@ -296,12 +299,12 @@ main {
 }
 
 
-.payment{
+.payment {
     display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0,0,0,0.4);
+    background-color: rgb(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
     margin: 0;
@@ -310,6 +313,7 @@ main {
     left: 0;
     display: none;
 }
+
 .payment aside {
     background-color: #5b9676;
     border-radius: 2rem;
@@ -319,11 +323,13 @@ main {
     display: flex;
     flex-flow: row wrap;
 }
-body{
+
+body {
     max-width: 100%;
     display: flex;
 }
-.input{
+
+.input {
     height: 1.5rem;
     width: 50rem;
     margin-right: 25%;
@@ -331,7 +337,8 @@ body{
     margin-top: .5rem;
     border-radius: 1rem;
 }
-.SBbutton{
+
+.SBbutton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -343,23 +350,27 @@ body{
     position: sticky;
     left: 61%;
 }
-.SBbutton:hover{
+
+.SBbutton:hover {
     background-color: #236154;
     color: #F8f8f0;
     border-color: black;
 }
-.SBbutton:active{
+
+.SBbutton:active {
     background-color: #C4c896;
     color: black;
 }
-.poptitle{ 
+
+.poptitle {
     height: 2rem;
     margin-left: 32%;
     margin-right: 25%;
     font-size: 1.8em;
     border-bottom: solid;
 }
-@media only screen and (max-width: 640px){
+
+@media only screen and (max-width: 640px) {
 
     main {
         margin: 0;
@@ -377,7 +388,7 @@ body{
         padding: .5vw 0 .5vw 4vw;
     }
 
-    .cartTotal{
+    .cartTotal {
         font-size: 2rem;
         position: absolute;
         display: flex;
@@ -386,7 +397,7 @@ body{
         width: 20rem;
         height: 0rem;
         margin-left: 6rem;
-        
+
     }
 
     .cartTotal h3 {
@@ -430,7 +441,7 @@ body{
         width: 100vw;
     }
 
-    .poptitle{ 
+    .poptitle {
         height: 2rem;
         margin-left: 2rem;
         margin-right: 25%;

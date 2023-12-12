@@ -13,7 +13,7 @@ body {
     margin-left: 2vw;
 }
 
-.language span img{
+.language span img {
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
@@ -31,7 +31,7 @@ body {
     margin-right: 4rem;
 }
 
-.language:hover  .drop-down{
+.language:hover .drop-down {
     display: block;
 }
 
@@ -51,13 +51,13 @@ body {
     height: 3.5rem;
 }
 
-.sub-header .masc{
+.sub-header .masc {
     display: flex;
     flex-flow: row;
     margin: 0 5vw;
 }
 
-.masc a{
+.masc a {
     width: 11vw;
     margin: 1.5vh 4vw 0 4vw;
 }
@@ -88,7 +88,7 @@ h1 {
     background-color: #F8F8F0;
     padding: .5rem;
     border-radius: 20px;
-    border:1px solid;
+    border: 1px solid;
 }
 
 .pic {
@@ -124,8 +124,9 @@ h1 {
 .text p {
     font-size: 1.5rem;
 }
-.spaceleft{
-    margin-left:3.8rem;
+
+.spaceleft {
+    margin-left: 3.8rem;
 }
 
 
@@ -165,7 +166,7 @@ a:visited {
     text-decoration: none;
 }
 
-*{
+* {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Garamond', serif;
@@ -177,6 +178,7 @@ h2 {
     font-family: 'gramond', serif;
     border-bottom: solid;
 }
+
 .hl {
     display: flex;
     flex-flow: row wrap;
@@ -192,7 +194,7 @@ h2 {
         height: 15rem;
     }
 
-    .os h1{
+    .os h1 {
         font-size: 3.5rem;
     }
 
@@ -217,11 +219,11 @@ h2 {
         margin: 3vw 0 3vw 0;
     }
 
-    .text h2{
+    .text h2 {
         font-size: 2.5rem;
     }
 
-    .text p{
+    .text p {
         font-size: 1.5rem;
     }
 

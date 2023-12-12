@@ -103,7 +103,7 @@ body {
     background-color: whitesmoke;
     padding: 0rem 0.5rem;
     width: 2.2rem;
-    transform: translate(-23vw,1vw);
+    transform: translate(-23vw, 1vw);
 }
 
 .button:hover {
@@ -115,7 +115,7 @@ body {
 }
 
 .content {
-    transform: translate(0vw,-2vw);
+    transform: translate(0vw, -2vw);
     width: 42vw;
     height: 12vw;
     resize: none;
@@ -126,7 +126,7 @@ body {
     border-radius: 0.1rem;
     color: black;
     background-color: whitesmoke;
-    transform: translate(0vw,6vw);
+    transform: translate(0vw, 6vw);
 }
 
 .textbox {
@@ -176,8 +176,9 @@ a:visited {
     color: black;
     text-decoration: none;
 }
-@media only screen and (max-width:640px){
-    .center{
+
+@media only screen and (max-width:640px) {
+    .center {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -192,23 +193,27 @@ a:visited {
         position: relative;
         left: 13.5vw;
     }
-   .name{
+
+    .name {
         margin-left: 64%;
     }
-    .content{
-        transform: translate(6vw,-10vw);
+
+    .content {
+        transform: translate(6vw, -10vw);
         width: 56vw;
         height: 15vw;
         resize: none;
     }
+
     .submit {
         border: 1px solid;
         border-radius: 0.1rem;
         color: black;
         background-color: whitesmoke;
-        transform: translate(-6vw,6vw);
+        transform: translate(-6vw, 6vw);
     }
-    footer{
+
+    footer {
         margin-top: 40vh;
     }
 }

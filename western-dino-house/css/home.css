@@ -25,7 +25,7 @@ nav {
     margin-right: 4vw;
 }
 
-.language span img{
+.language span img {
     padding-top: .3rem;
     width: 3rem;
     height: 3.5rem;
@@ -42,7 +42,7 @@ nav {
     margin-right: 0;
 }
 
-.language:hover  .drop-down{
+.language:hover .drop-down {
     display: block;
 }
 
@@ -67,14 +67,14 @@ nav {
     padding-left: 2vw;
     padding-right: 4vw;
     padding-top: 1rem;
-    
+
 }
 
 
 
 
 .name {
-    background-image: url(/western-dino-house/images/backgound.jpg); 
+    background-image: url(/western-dino-house/images/backgound.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
@@ -96,7 +96,7 @@ h1 {
     display: flex;
     flex-basis: 100%;
     justify-content: center;
-    flex-flow: column ;
+    flex-flow: column;
     align-items: center;
     margin-top: 2rem;
 }
@@ -114,7 +114,7 @@ h1 {
     flex-flow: row wrap;
     flex-basis: 100%;
     padding-bottom: 2rem;
-    
+
 }
 
 .text-box {
@@ -135,12 +135,12 @@ h1 {
 
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     width: 12rem;
-    border:1px solid;
+    border: 1px solid;
     background-color: whitesmoke;
     padding: .3rem;
     margin-left: 55rem;
@@ -186,7 +186,7 @@ a:visited {
     text-decoration: none;
 }
 
-*{
+* {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Garamond', serif;
@@ -201,107 +201,106 @@ h2 {
 
 @media only screen and (max-width: 1000px) {
 
-body {
-    display: flex;
-    flex-basis: 100%;
-    width: 100vw;
-}
+    body {
+        display: flex;
+        flex-basis: 100%;
+        width: 100vw;
+    }
 
-.language span img{
-    padding-top: 4vw;
-    width: 8vw;
-    height: 8vw;
-    margin-left: 2vw;
-}
+    .language span img {
+        padding-top: 4vw;
+        width: 8vw;
+        height: 8vw;
+        margin-left: 2vw;
+    }
 
-.drop-down {
-    font-size: 5vw;    
-    min-width: 19vw;
-    transform: translateX(-27%);
-    
-}
+    .drop-down {
+        font-size: 5vw;
+        min-width: 19vw;
+        transform: translateX(-27%);
 
-.language:hover  .drop-down{
-    display: block;
-}
+    }
+
+    .language:hover .drop-down {
+        display: block;
+    }
 
 
-.sub-header {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #D7D3C7;
-    padding: 0;
-}
+    .sub-header {
+        display: flex;
+        justify-content: flex-start;
+        background-color: #D7D3C7;
+        padding: 0;
+    }
 
-.sub-header a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.4vw .5vw .5vw 0;
-    font-size: 5vw;
-    width: 20vw;
-}
+    .sub-header a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.4vw .5vw .5vw 0;
+        font-size: 5vw;
+        width: 20vw;
+    }
 
-h1 {
-    font-size: 4.5rem;
-    margin: 3.5rem 1rem;
-}
+    h1 {
+        font-size: 4.5rem;
+        margin: 3.5rem 1rem;
+    }
 
-.name {
-    height: 10vw;
-}
+    .name {
+        height: 10vw;
+    }
 
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.container {
-    width: 80vw;
-    height: 87vw;
-    border-radius: 0;
-}
+    .container {
+        width: 80vw;
+        height: 87vw;
+        border-radius: 0;
+    }
 
-.text-box {
-    width: 71vw;
-    font-size: 6vw;
-    border-radius: 0;
-    padding: 0 4.5vw 3vw 4.5vw;
-}
+    .text-box {
+        width: 71vw;
+        font-size: 6vw;
+        border-radius: 0;
+        padding: 0 4.5vw 3vw 4.5vw;
+    }
 
-.button {
-    width: 35vw;
-    margin-left: 17vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-}
+    .button {
+        width: 35vw;
+        margin-left: 17vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
 
-.ads {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .ads {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-footer section a:first-of-type {
-    font-size: 8vw;
-}
+    footer section a:first-of-type {
+        font-size: 8vw;
+    }
 
-footer {
-    display: flex;
-    flex-flow: row wrap;
-}
+    footer {
+        display: flex;
+        flex-flow: row wrap;
+    }
 
-footer section{
-    display: flex;
-    flex-flow: row wrap;
-    width: 40vw;
-}
+    footer section {
+        display: flex;
+        flex-flow: row wrap;
+        width: 40vw;
+    }
 
-footer a{
-    margin-left: -9.8vw;
-    font-size: 5vw;
-    padding-bottom: 2vw;
+    footer a {
+        margin-left: -9.8vw;
+        font-size: 5vw;
+        padding-bottom: 2vw;
+    }
 }
-}
-

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Oxanium&display=swap');
 
 .header {
-    border:none;
+    border: none;
     display: flex;
     flex-basis: 100%;
-    width:100%;
-    font-family:'Overpass Mono', monospace;
+    width: 100%;
+    font-family: 'Overpass Mono', monospace;
 }
 
 body header {
@@ -22,7 +22,7 @@ nav {
     color: green;
 }
 
-header a:link{
+header a:link {
     color: green;
 }
 
