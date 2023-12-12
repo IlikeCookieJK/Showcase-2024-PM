@@ -263,6 +263,11 @@ main {
         font-size: 1.5rem;
     }
 
+    .emp .text {
+        height: auto;
+        flex-flow: row wrap;
+    }
+
     .pic {
         border: none;
         width: 88vw;
