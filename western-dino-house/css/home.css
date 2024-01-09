@@ -40,12 +40,15 @@ nav {
     min-width: 180px;
     padding: 5px 9px;
     margin-right: 0;
+    color: black;
 }
 
 .language:hover .drop-down {
     display: block;
 }
-
+.language:active .drop-down {
+    display: none;
+}
 
 .sub-header {
     background-color: #D7D3C7;
